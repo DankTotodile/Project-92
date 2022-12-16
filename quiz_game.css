@@ -1,0 +1,40 @@
+input
+{
+    height: 75px !important;
+    width: 300px !important;
+    text-align: center;
+}
+div
+{
+    margin: 30px;
+}
+body
+{
+    background-image: url('https://images.alphacoders.com/206/206871.jpg');
+    color: white;
+    font-family: Impact;
+
+}
+#login_button
+{
+    color: black;
+    width: 80px;
+    height: 30px;
+}
+#output
+{
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+button
+{
+    width: 300px;
+}
+#a, #b, #c
+{
+    color: black;
+}

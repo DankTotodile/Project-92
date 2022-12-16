@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>\
+    <link rel="stylesheet" type="text/css" href="quiz_game.css">
+    <script src="quiz_game_login.js"></script>
+</head>
+<body>
+    <center>
+        <h1 style="font-family: Impact;">COOL MATH GAME</h1><br><br><br>
+        <div id="player_1" class="login_div ">
+            <h4>Player 1 Username:</h4>
+            <input id="player1_gamertag" placeholder="Type Here" class="form-control">
+        </div><br><br><br><br>
+        <div id="player_2" class="login_div ">
+            <h4>Player 2 Username:</h4>
+            <input id="player2_gamertag" placeholder="Type Here" class="form-control">
+        </div>
+        <br><br>
+        <button id="login_button" onclick="addUser()">Login</button>
+        <p style="font-size: 30px;">This is a 2-player offline game. You need two people at the same side to play this game.</p>
+    </center>
+</body>
+</html>
